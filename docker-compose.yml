@@ -1,0 +1,10 @@
+version: '3.1'
+
+services:
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: Gonzalo02
+      MYSQL_DATABASE: panaderia
+    ports:
+      - "3306:3306"
